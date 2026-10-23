@@ -1,0 +1,14 @@
+   Chip area for top module '\mult_array': 905.868800
+     of which used for sequential elements: 400.384000 (44.20%)
+
+10. Executing Verilog backend.
+
+10.1. Executing BMUXMAP pass.
+
+10.2. Executing DEMUXMAP pass.
+Dumping module `\full_adder'.
+Dumping module `\mult_array'.
+
+End of script. Logfile hash: 0e5afb03ce, time: 1.07s, user: 0.31s, system: 0.32s, MEM: 43.34 MB peak
+Yosys 0.70 (git sha1 28ba3cb92, Release, GNU /usr/bin/c++ 13.3.0)
+Time spent: 49% 2x abc (0 sec), 12% 1x synth (0 sec), ...
