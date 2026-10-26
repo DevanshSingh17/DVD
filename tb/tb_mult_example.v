@@ -34,19 +34,19 @@ module tb_mult_example;
         rst_n = 1;
 
         @(negedge clk);
-        a = 4'd7;
-        b = 4'd9;
+        a = 4'd13;
+        b = 4'd7;
 
         repeat (2) @(posedge clk);
         #1;
 
-        $display("A=%0d, B=%0d, P=%0d, Expected=63",
+        $display("A=%0d, B=%0d, P=%0d, Expected=91",
                  a, b, p);
 
-        if (p === 8'd63)
-            $display("PASS: 7 x 9 = 63");
+        if (p === 8'd91)
+            $display("PASS: 13 x 7 = 91");
         else
-            $display("FAIL: expected 63, got %0d", p);
+            $display("FAIL: expected 91, got %0d", p);
 
         $finish;
     end
