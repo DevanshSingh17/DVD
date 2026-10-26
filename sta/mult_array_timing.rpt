@@ -12,17 +12,17 @@ Path Type: max
    0.000    1.000 ^ _16_/RESET_B (sky130_fd_sc_hd__dfrtp_1)
             1.000   data arrival time
 
-  10.000   10.000   clock clk (rise edge)
-   0.000   10.000   clock network delay (ideal)
-   0.000   10.000   clock reconvergence pessimism
-           10.000 ^ _16_/CLK (sky130_fd_sc_hd__dfrtp_1)
-   0.228   10.228   library recovery time
-           10.228   data required time
+   3.552    3.552   clock clk (rise edge)
+   0.000    3.552   clock network delay (ideal)
+   0.000    3.552   clock reconvergence pessimism
+            3.552 ^ _16_/CLK (sky130_fd_sc_hd__dfrtp_1)
+   0.228    3.780   library recovery time
+            3.780   data required time
 -----------------------------------------------------------
-           10.228   data required time
+            3.780   data required time
            -1.000   data arrival time
 -----------------------------------------------------------
-            9.228   slack (MET)
+            2.780   slack (MET)
 
 
 Startpoint: _24_ (rising edge-triggered flip-flop clocked by clk)
@@ -48,16 +48,16 @@ Path Type: max
    0.000    3.421 v _23_/D (sky130_fd_sc_hd__dfrtp_1)
             3.421   data arrival time
 
-  10.000   10.000   clock clk (rise edge)
-   0.000   10.000   clock network delay (ideal)
-   0.000   10.000   clock reconvergence pessimism
-           10.000 ^ _23_/CLK (sky130_fd_sc_hd__dfrtp_1)
-  -0.131    9.869   library setup time
-            9.869   data required time
+   3.552    3.552   clock clk (rise edge)
+   0.000    3.552   clock network delay (ideal)
+   0.000    3.552   clock reconvergence pessimism
+            3.552 ^ _23_/CLK (sky130_fd_sc_hd__dfrtp_1)
+  -0.131    3.421   library setup time
+            3.421   data required time
 -----------------------------------------------------------
-            9.869   data required time
+            3.421   data required time
            -3.421   data arrival time
 -----------------------------------------------------------
-            6.448   slack (MET)
+            0.000   slack (MET)
 
 

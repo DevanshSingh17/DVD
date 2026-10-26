@@ -11,7 +11,7 @@ read_verilog synth/mult_array_netlist.v
 link_design mult_array
 
 # Define a 10 ns clock
-create_clock -name clk -period 10 [get_ports clk]
+create_clock -name clk -period 3.552 [get_ports clk]
 
 # Input and output timing constraints
 set_input_delay 1.0 -clock clk [delete_from_list [all_inputs] [get_ports clk]]
